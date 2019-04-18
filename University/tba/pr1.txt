@@ -1,0 +1,108 @@
+buat L1: 
+a habis dibagi 3 (0, 3, 6, ...)
+b sisa dibagi 3 (1, 2, 4, 5, 7, 8,...)
+
+{a,b}*: 
+epsilon x
+a, b
+x  v
+aa, ab, ba, bb
+ x   x   x  v
+aaa, aab, aba, abb, baa, bab, bba, bbb
+x     x    x    x    x    x    x    x
+aaaa, aaab, aaba, aabb, abaa, abab, abba, abbb,
+  x    v     v      x     v    x      x    x
+baaa, baab, baba, babb, bbaa, bbab, bbba, bbbb
+  v     x    x      x     x     x     x     v
+aaaaa, aaaab, aaaba, aaabb, aabaa, aabab, aabba, aabbb, 
+  x       x    x      v       x      v      v   
+abaaa, abaab, ababa, ababb, abbaa, abbab, abbba, abbbb
+
+
+==========================================================
+L2:
+
+pjg 0 = epsilon
+pjg 1 = a, b
+pjg 2 = ab
+pjg 3 = aaa, aab, abb, bbb
+pjg 4 = aaaa, aaab, aabb, abbb, bbbb
+pjg 5 = aaaaa, aaaab, aaabb, aabbb, abbbb, bbbbb
+pjg 6 = aaaaaa, aaaaab, aaaabb, aaabbb, aabbbb, abbbbb, bbbbbb
+1. {b, bb, aaab, aaba, abaa, baaa, bbbb, aaabb, aabab, aabba}
+L2 = {epsilon,ab,abb,aabb,aabbb,aabbbb,aaabb,aaabbb,aaabbbb,aaaabbb,aaaabbbb}
+
+
+
+
+============================================================
+L3:
+
+
+==========================================================
+L4:
+epsilon
+
+==========================================================
+L5:
+epsilon
+
+000, 001, 010, 011, 100, 101, 110, 111 <-- ini semua
+
+0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 
+1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+semua kecuali 1001
+==========================================================
+L6:
+00 diikutin 111
+
+
+0, 1
+v  v
+00, 01, 10, 11
+x    v   v   v
+000, 001, 010, 011, 100, 101, 110, 111
+x     x    v    v    x    v    v    v
+0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111,
+  x     x    x     x     x     v     v      v 
+1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+
+00000, 00001, 00010, 00011, 00100, 00101, 00110, 00111, 
+01000, 01001, 01010, 01011, 01100, 01101, 01110, 01111,
+10000, 10001, 10010, 10011, 10100, 10101, 10110, 10111, 
+11000, 11001, 11010, 11011, 11100, 11101, 11110, 11111
+==========================================================
+L7:
+
+===================
+JWBN FINAL
+===================
+A.
+1. {b, bb, aaab, aaba, abaa, baaa, bbbb, aaabb, aabab, aabba} DONE
+2. {epsilon,ac,ad,bc,bd,aacc,aacd,aadd,abdd,abcd} DONE
+3. {0, 1, 01, 10, 11, 010, 011, 101, 110, 111} DONE
+4. 
+
+B.
+
+====================
+CORETAN
+====================
+ac
+ad
+bc
+bd
+aacc
+aacd
+aadd
+abdd
+abcd
+abcc
+bbcc
+bbcd
+bbdd
+aabccd
+aabcdd
+abbccd
+abbcdd
+aabbccdd

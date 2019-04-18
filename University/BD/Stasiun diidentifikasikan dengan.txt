@@ -1,0 +1,21 @@
+Stasiun diidentifikasikan dengan 
+- id stasiun.
+- titik koordinat kombinasi latitude dan longitude yang unik (key)
+- nama stasiun
+- alamat stasiun 
+- sepeda
+
+Sepeda
+- nomor sepeda
+- sticker barcode yang 
+- nomor sepeda tersebut. 
+- merk 
+- jenis sepedanya 
+- status sepeda apakah tersedia atau tidak
+
+
+Setiap stasiun memiliki beberapa sepeda yang dapat
+dipinjam oleh anggota atau member dari ShareBike.
+
+nomor KTP sebagai nomor identifikasi yang unik,
+nama, alamat, tanggal lahir, nomor telepon, e-mail, dan saldo ShareBike Pay.

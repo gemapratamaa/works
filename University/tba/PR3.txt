@@ -1,0 +1,8 @@
+(((a*b*)*ab) U ((a*b*)*ba))(b U a)*
+( (a*b*)*(ab U ba) ) (b U a)*
+(a*b*)*(ab U ba)
+
+4a. ((ba)*(a+bb)(ab)*(b+aa))*(ba)*(a+bb)(ab)*
+b.  ((a+b)(a+ba)*bb)*(a+b)(a+ba)*
+c.
+d. (b+a(ab+ba*bb)*(aa+ba*ba))*
